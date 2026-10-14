@@ -1,1 +1,164 @@
-IyBQYW5kb3JhIFRvb2wgU2VydmVyIChSYXNwYmVycnkgUGkpCgpBIHRpbnkgbm8tY29kZSB0b29sIGhvc3QgZm9yIFBhbmRvcmEuIFJ5ZSBkZWZpbmVzIHRvb2xzIHRocm91Z2ggYSB3ZWIgVUkg4oCUCnNoZWxsIGNvbW1hbmRzIHdpdGggYHtwYXJhbX1gIHBsYWNlaG9sZGVycywgb3IgaW5saW5lIFB5dGhvbiBzY3JpcHRzIOKAlAphbmQgUGFuZG9yYSBjYWxscyB0aGVtIG92ZXIgSFRUUCBhcyBpZiB0aGV5IHdlcmUgaGVyIG93biBuYXRpdmUgZnVuY3Rpb25zLgoKKipTdGRsaWIgb25seS4qKiBObyBwaXAsIG5vIHZlbnYsIG5vIGRlcGVuZGVuY2llcy4gUnVucyBvbiBhbnkgUGkgd2l0aCBQeXRob24gMy4KCiMjIFJ1biBpdAoKYGBgYmFzaApjZCB+L3BhbmRvcmEtdG9vbHNlcnZlcgpweXRob24zIHRvb2xzZXJ2ZXIucHkgICAgICAgICAgICAjIHBvcnQgODc5MQpweXRob24zIHRvb2xzZXJ2ZXIucHkgLS1wb3J0IDkwMDAKYGBgCgpUaGVuIG9wZW4gYGh0dHA6Ly88cGktaXA+Ojg3OTFgIGluIGEgYnJvd3NlciDigJQgdGhhdCdzIHRoZSBtYW5hZ2VtZW50IFVJOgphZGQgdG9vbHMsIHRlc3QtcnVuIHRoZW0sIGVkaXQsIGRlbGV0ZSwgd2F0Y2ggdGhlIGV4ZWN1dGlvbiBsb2cuCgojIyBBdXRvLXN0YXJ0IChzeXN0ZW1kKQoKYGBgYmFzaApzdWRvIHRlZSAvZXRjL3N5c3RlbWQvc3lzdGVtL3BhbmRvcmEtdG9vbHNlcnZlci5zZXJ2aWNlID4gL2Rldi9udWxsIDw8J0VPRicKW1VuaXRdCkRlc2NyaXB0aW9uPVBhbmRvcmEgdG9vbCBzZXJ2ZXIKQWZ0ZXI9bmV0d29yay50YXJnZXQKCltTZXJ2aWNlXQpUeXBlPXNpbXBsZQpVc2VyPXBpCldvcmtpbmdEaXJlY3Rvcnk9L2hvbWUvcGkvcGFuZG9yYS10b29sc2VydmVyCkV4ZWNTdGFydD0vdXNyL2Jpbi9weXRob24zIC9ob21lL3BpL3BhbmRvcmEtdG9vbHNlcnZlci90b29sc2VydmVyLnB5ClJlc3RhcnQ9YWx3YXlzClJlc3RhcnRTZWM9NQoKW0luc3RhbGxdCldhbnRlZEJ5PW11bHRpLXVzZXIudGFyZ2V0CkVPRgoKc3VkbyBzeXN0ZW1jdGwgZGFlbW9uLXJlbG9hZApzdWRvIHN5c3RlbWN0bCBlbmFibGUgLS1ub3cgcGFuZG9yYS10b29sc2VydmVyCmBgYAoKQ2hlY2sgaXQncyBhbGl2ZTogYGN1cmwgaHR0cDovL2xvY2FsaG9zdDo4NzkxL2FwaS9zdGF0dXNgCgojIyBSZWFjaCBpdCBmcm9tIHRoZSBSeWVib3gKClRoZSBQaSBhbmQgdGhlIFJ5ZWJveCBuZWVkIHRvIHNlZSBlYWNoIG90aGVyIG9uIHRoZSBMQU4gKG9yIGJvdGggb24KVGFpbHNjYWxlIOKAlCByZWNvbW1lbmRlZCwgc2FtZSBhcyB0aGUgcGhvbmUgYXBwKS4KCjEuIEZpbmQgdGhlIFBpJ3MgYWRkcmVzczogb24gdGhlIFBpLCBgaG9zdG5hbWUgLUlgLgoyLiBPbiB0aGUgUnllYm94LCBvcGVuIFBhbmRvcmEncyBIVUQg4oaSIHNldHRpbmdzIOKGkiAqKlRPT0wgU0VSVkVSKio6CiAgIC0gYHRvb2xzZXJ2ZXJfZW5hYmxlZGAg4oaSIE9OCiAgIC0gYHRvb2xzZXJ2ZXJfaXBgIOKGkiB0aGUgUGkncyBhZGRyZXNzIChlLmcuIGAxOTIuMTY4LjEuNTBgKQogICAtIGB0b29sc2VydmVyX3BvcnRgIOKGkiBgODc5MWAKICAgLSBIaXQgKipURVNUIENPTk5FQ1RJT04qKiDigJQgaXQgc2hvdWxkIHJlcG9ydCB0aGUgdG9vbCBjb3VudC4KMy4gRG9uZS4gUGFuZG9yYSdzIG5leHQgdHVybiBpbmNsdWRlcyB0aGUgUGkncyB0b29scyBhcyBgcGlfPG5hbWU+YAogICBmdW5jdGlvbnMgYWxvbmdzaWRlIGhlciBsb2NhbCB0b29scy4gU2hlIGNhbGxzIHRoZW07IHRoZSBQaSBydW5zIHRoZW07CiAgIHJlc3VsdHMgY29tZSBiYWNrIGludG8gdGhlIGNvbnZlcnNhdGlvbi4KCiMjIERlZmluaW5nIHRvb2xzCgpUd28ga2luZHMsIGJvdGggY3JlYXRlZCBpbiB0aGUgd2ViIFVJIOKAlCBubyBjb2Rpbmcgb24gdGhlIFBpIHJlcXVpcmVkLgoKKipTaGVsbCBjb21tYW5kKiog4oCUIHdpdGggYHtwYXJhbX1gIHBsYWNlaG9sZGVycyBmaWxsZWQgYXQgY2FsbCB0aW1lOgoKfCBmaWVsZCB8IGV4YW1wbGUgfAp8LS0tfC0tLXwKfCBuYW1lIHwgYHdlYXRoZXJgIHwKfCBkZXNjcmlwdGlvbiB8IGBHZXQgY3VycmVudCB3ZWF0aGVyIGZvciBhIGNpdHlgIHwKfCBjb21tYW5kIHwgYGN1cmwgLXMgJ3d0dHIuaW4ve2NpdHl9P2Zvcm1hdD0zJ2AgfAp8IHBhcmFtcyB8IGBjaXR5YCA9IGBjaXR5IG5hbWVgIHwKfCB0aW1lb3V0IHwgYDE1YCB8CgpQYW5kb3JhIGNhbGxzIGBwaV93ZWF0aGVyKGNpdHk9Ik5hc2h2aWxsZSIpYCDihpIgdGhlIFBpIHJ1bnMKYGN1cmwgLXMgJ3d0dHIuaW4vTmFzaHZpbGxlP2Zvcm1hdD0zJ2Ag4oaSIG91dHB1dCByZXR1cm5zIGFzIHRoZSB0b29sIHJlc3VsdC4KCioqSW5saW5lIFB5dGhvbioqIOKAlCByZWFkcyBgeyJhcmdzIjogey4uLn19YCBvbiBzdGRpbiwgcHJpbnRzIEpTT04gb24gc3Rkb3V0OgoKYGBgcHl0aG9uCmltcG9ydCBqc29uLCBzeXMKZGF0YSA9IGpzb24ubG9hZChzeXMuc3RkaW4pCm5hbWUgPSBkYXRhWyJhcmdzIl0uZ2V0KCJuYW1lIiwgIndvcmxkIikKcHJpbnQoanNvbi5kdW1wcyh7ImdyZWV0aW5nIjogZiJoZWxsbyB7bmFtZX0ifSkpCmBgYAoKIyMgRmlsZXMKCnwgZmlsZSB8IHdoYXQgfAp8LS0tfC0tLXwKfCBgdG9vbHNlcnZlci5weWAgfCB0aGUgc2VydmVyICh0aGlzIGlzIHRoZSB3aG9sZSBiYWNrZW5kKSB8CnwgYGluZGV4Lmh0bWxgIHwgbWFuYWdlbWVudCBVSSwgc2VydmVkIGF0IGAvYCB8CnwgYHRvb2xzLmpzb25gIHwgdG9vbCByZWdpc3RyeSAoY3JlYXRlZCBvbiBmaXJzdCBzYXZlKSB8CnwgYHRvb2xfbG9nLmpzb25sYCB8IGV4ZWN1dGlvbiBsb2csIGxhc3QgMTAwIHJ1bnMgfAoKIyMgQVBJIChmb3IgUGFuZG9yYSdzIGNsaWVudCkKCi0gYEdFVCAvYXBpL3Rvb2xzYCDihpIgYHsidG9vbHMiOiBbe25hbWUsIGRlc2NyaXB0aW9uLCBwYXJhbXMsIHRpbWVvdXQsIGtpbmR9XX1gCi0gYEdFVCAvYXBpL3Rvb2xzLzxuYW1lPmAg4oaSIGZ1bGwgc3BlYyBpbmNsdWRpbmcgY29tbWFuZC9zY3JpcHQKLSBgUE9TVCAvYXBpL3Rvb2xzYCDihpIgY3JlYXRlCi0gYFBVVCAvYXBpL3Rvb2xzLzxuYW1lPmAg4oaSIHVwZGF0ZSAobWVyZ2UpCi0gYERFTEVURSAvYXBpL3Rvb2xzLzxuYW1lPmAg4oaSIHJlbW92ZQotIGBQT1NUIC9hcGkvcnVuYCDihpIgYHsidG9vbCI6IG5hbWUsICJhcmdzIjogey4uLn19YCDihpIgYHsib2siOiB0cnVlLCAib3V0cHV0IjogLi4ufWAKLSBgR0VUIC9hcGkvbG9nP2xpbWl0PTUwYCDihpIgcmVjZW50IHJ1bnMKLSBgR0VUIC9hcGkvc3RhdHVzYCDihpIgYHsidXB0aW1lX3MiLCAidG9vbF9jb3VudCIsICJsYXN0X3J1biJ9YAoKIyMgTm90ZXMKCi0gRXZlcnl0aGluZyB0aGUgUGkgcnVucyBpcyBsb2dnZWQgd2l0aCB0aW1lc3RhbXAsIGFyZ3MsIGFuZCBkdXJhdGlvbiDigJQKICBzYW1lIGFjY291bnRhYmlsaXR5IGRlYWwgYXMgUGFuZG9yYSdzIGxvY2FsIHRvb2xzLgotIEtlZXAgdGhlIFBpIG9uIHRoZSBMQU4gb3IgVGFpbHNjYWxlIG9ubHkuIERvbid0IGV4cG9zZSA4NzkxIHRvIHRoZQogIGludGVybmV0OyB0aGVyZSdzIG5vIGF1dGgg4oCUIGl0J3MgYSB0cnVzdGVkLW5ldHdvcmsgc2VydmljZS4KCiMjIFdoYXQgZWxzZSBjYW4gbW92ZSB0byB0aGUgUGkKClJ5ZSdzIGFzazogc2hlZCBsb2FkIG9mZiB0aGUgUnllYm94LiBUaGUgUGkgaXMgSS9PLWJvdW5kLWZyaWVuZGx5LApsaWdodHdlaWdodCwgYW5kIGFsd2F5cy1vbiDigJQgcGVyZmVjdCBmb3IgYmFja2dyb3VuZCBzZXJ2aWNlcy4gVGhlIHRvb2wKc2VydmVyIGlzIHRoZSBGSVJTVCBQaSBzZXJ2aWNlLCBub3QgdGhlIG9ubHkgb25lLgoKKipNb3ZlIHRvIFBpIChJL08tYm91bmQsIGxpZ2h0d2VpZ2h0LCBhbHdheXMtb24pOioqCi0gKipUb29sIHNlcnZlcioqICh0aGlzIGJ1aWxkKSDigJQgc2hlbGwsIHNjcmlwdHMsIHdlYiBmZXRjaGluZwotICoqU2VhclhORyBpbnN0YW5jZSoqIOKAlCBzZWxmLWhvc3RlZCBzZWFyY2ggZm9yIGhlciBjdXJpb3NpdHkgcmVzZWFyY2gKICAoZG9ja2VyIG9yIGJhcmUgbWV0YWwpOyByZXNlYXJjaC5weSBwb2ludHMgYXQgdGhlIFBpIGluc3RlYWQgb2YgbG9jYWxob3N0Ci0gKipEcmVhbSBvcmNoZXN0cmF0aW9uKiog4oCUIHRoZSBmaWxlLWdhdGhlcmluZywgcHJvbXB0LWJ1aWxkaW5nLAogIGxvZy1wcm9jZXNzaW5nIHBhcnRzIG9mIHRoZSBkcmVhbSBjeWNsZSAodGhlIExMTSBjYWxscyBzdGlsbCBoaXQKICBPbGxhbWEgb24gdGhlIFJ5ZWJveCBvdmVyIHRoZSBuZXR3b3JrKQotICoqSGVhbHRoIHdhdGNoZG9nKiog4oCUIG1vbml0b3IgdGhlIFJ5ZWJveCdzIFBhbmRvcmEgcHJvY2Vzc2VzIHJlbW90ZWx5LAogIGFsZXJ0IG9uIGZhaWx1cmUgKHBpbmdzIHRoZSBSeWVib3ggQVBJLCB3YXRjaGVzIGZvciBzaWxlbmNlKQotICoqSG91c2UgcGF0dGVybiBhbmFseXNpcyoqIOKAlCBob3VzZS5weSBsb2cgY3J1bmNoaW5nOyBiYXRjaCwgbm90IHJlYWwtdGltZQotICoqSFVEIHNlcnZlcioqIOKAlCBsaWdodHdlaWdodCBIVFRQLCBjYW4gc2VydmUgdGhlIFVJIGZyb20gdGhlIFBpCgoqKlN0YXlzIG9uIFJ5ZWJveCAobmVlZHMgR1BVLCBhdWRpbyBoYXJkd2FyZSwgb3IgcmVhbC10aW1lKToqKgotICoqT2xsYW1hICsgYWxsIG1vZGVscyoqIOKAlCBuZWVkcyB0aGUgNjkwMCBYVCwgbm8gY29udGVzdAotICoqTGlzdGVuZXIqKiDigJQgdGhlIG1pY3JvcGhvbmUgYW5kIHNwZWFrZXJzIGFyZSBwaHlzaWNhbDsgaXQgbGl2ZXMKICB3aGVyZSB0aGUgZWFycyBhbmQgbW91dGggYXJlCi0gKipXaGlzcGVyIFNUVCwgUGlwZXIgVFRTLCB3YWtlIHdvcmQqKiDigJQgcmVhbC10aW1lIGF1ZGlvOyB0aGUgUGkgaXMKICB0b28gc2xvdyBhbmQgaGFzIG5vIGF1ZGlvIGhhcmR3YXJlIHdvcnRoIHVzaW5nCi0gKipWaXNpb24vVkxNKiog4oCUIG5lZWRzIHRoZSBHUFUKCiMjIyBQaSBzZXJ2aWNlIEFQSSBwYXR0ZXJuCgpFdmVyeSBQaSBzZXJ2aWNlIGZvbGxvd3MgdGhlIHNhbWUgc2hhcGUgc28gUGFuZG9yYSAoYW5kIHRoZSBIVUQpIGNhbgp0YWxrIHRvIGFsbCBvZiB0aGVtIHVuaWZvcm1seToKCi0gYEdFVCAvYXBpL2hlYWx0aGAg4oaSIGB7Im9rIjogdHJ1ZSwgInNlcnZpY2UiOiAiPG5hbWU+IiwgInVwdGltZV9zIjogTn1gCi0gYEdFVCAvYXBpL3Rvb2xzYCDihpIgbGlzdCBjYXBhYmlsaXRpZXMgKGZvciB0b29sLWxpa2Ugc2VydmljZXMpCi0gYFBPU1QgL2FwaS9ydW5gIOKGkiBgeyJ0b29sIjogbmFtZSwgImFyZ3MiOiB7Li4ufX1gIOKGkiBgeyJvayIsICJvdXRwdXQifCJlcnJvciJ9YAotIGBHRVQgL2FwaS9sb2dgIOKGkiByZWNlbnQgZXhlY3V0aW9uIGxvZwoKVGhlIHRvb2wgc2VydmVyIGltcGxlbWVudHMgYWxsIGZvdXIuIEZ1dHVyZSBzZXJ2aWNlcyBpbXBsZW1lbnQgYXQKbWluaW11bSBgL2FwaS9oZWFsdGhgIGFuZCBgL2FwaS9sb2dgLgoKIyMjIFBpIHNlcnZpY2VzIGNhbGxpbmcgdGhlIFJ5ZWJveCBMTE0KCkFueSBQaSBzZXJ2aWNlIHRoYXQgbmVlZHMgTExNIHdvcmsgY2FsbHMgdGhlIFJ5ZWJveCdzIE9sbGFtYSBkaXJlY3RseSDigJQKdGhlIG1vZGVscyBzdGF5IG9uIHRoZSA2OTAwIFhULCBhbHdheXM6CgpgYGAKaHR0cDovLzxyeWVib3gtaXA+OjExNDM0L2FwaS9jaGF0CmBgYAoKU2FtZSBgL2FwaS9jaGF0YCBwYXlsb2FkIFBhbmRvcmEncyBsbG0ucHkgc2VuZHMgKG1vZGVsLCBtZXNzYWdlcywKb3B0aW9uYWwgdG9vbHMpLiBUaGUgUGkgbmV2ZXIgcnVucyBhIG1vZGVsIGl0c2VsZjsgaXQncyBoYW5kcyBhbmQgZXllcywKbm90IHRoZSBicmFpbi4K
+# Pandora Tool Server (Raspberry Pi)
+
+A tiny no-code tool host for Pandora. Rye defines tools through a web UI —
+shell commands with `{param}` placeholders, or inline Python scripts —
+and Pandora calls them over HTTP as if they were her own native functions.
+
+**Stdlib only.** No pip, no venv, no dependencies. Runs on any Pi with Python 3.
+
+## Run it
+
+```bash
+cd ~/pandora-toolserver
+python3 toolserver.py            # port 8791
+python3 toolserver.py --port 9000
+```
+
+Then open `http://<pi-ip>:8791` in a browser — that's the management UI:
+add tools, test-run them, edit, delete, watch the execution log.
+
+## Auto-start (systemd)
+
+```bash
+sudo tee /etc/systemd/system/pandora-toolserver.service > /dev/null <<'EOF'
+[Unit]
+Description=Pandora tool server
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/pandora-toolserver
+ExecStart=/usr/bin/python3 /home/pi/pandora-toolserver/toolserver.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now pandora-toolserver
+```
+
+Check it's alive: `curl http://localhost:8791/api/status`
+
+## Reach it from the Ryebox
+
+The Pi and the Ryebox need to see each other on the LAN (or both on
+Tailscale — recommended, same as the phone app).
+
+1. Find the Pi's address: on the Pi, `hostname -I`.
+2. On the Ryebox, open Pandora's HUD → settings → **TOOL SERVER**:
+   - `toolserver_enabled` → ON
+   - `toolserver_ip` → the Pi's address (e.g. `192.168.1.50`)
+   - `toolserver_port` → `8791`
+   - Hit **TEST CONNECTION** — it should report the tool count.
+3. Done. Pandora's next turn includes the Pi's tools as `pi_<name>`
+   functions alongside her local tools. She calls them; the Pi runs them;
+   results come back into the conversation.
+
+## Defining tools
+
+Two kinds, both created in the web UI — no coding on the Pi required.
+
+**Shell command** — with `{param}` placeholders filled at call time:
+
+| field | example |
+|---|---|
+| name | `weather` |
+| description | `Get current weather for a city` |
+| command | `curl -s 'wttr.in/{city}?format=3'` |
+| params | `city` = `city name` |
+| timeout | `15` |
+
+Pandora calls `pi_weather(city="Nashville")` → the Pi runs
+`curl -s 'wttr.in/Nashville?format=3'` → output returns as the tool result.
+
+**Inline Python** — reads `{"args": {...}}` on stdin, prints JSON on stdout:
+
+```python
+import json, sys
+data = json.load(sys.stdin)
+name = data["args"].get("name", "world")
+print(json.dumps({"greeting": f"hello {name}"}))
+```
+
+## Files
+
+| file | what |
+|---|---|
+| `toolserver.py` | the server (this is the whole backend) |
+| `index.html` | management UI, served at `/` |
+| `tools.json` | tool registry (created on first save) |
+| `tool_log.jsonl` | execution log, last 100 runs |
+
+## API (for Pandora's client)
+
+- `GET /api/tools` → `{"tools": [{name, description, params, timeout, kind}]}`
+- `GET /api/tools/<name>` → full spec including command/script
+- `POST /api/tools` → create
+- `PUT /api/tools/<name>` → update (merge)
+- `DELETE /api/tools/<name>` → remove
+- `POST /api/run` → `{"tool": name, "args": {...}}` → `{"ok": true, "output": ...}`
+- `GET /api/log?limit=50` → recent runs
+- `GET /api/status` → `{"uptime_s", "tool_count", "last_run"}`
+
+## Notes
+
+- Everything the Pi runs is logged with timestamp, args, and duration —
+  same accountability deal as Pandora's local tools.
+- Keep the Pi on the LAN or Tailscale only. Don't expose 8791 to the
+  internet; there's no auth — it's a trusted-network service.
+
+## What else can move to the Pi
+
+Rye's ask: shed load off the Ryebox. The Pi is I/O-bound-friendly,
+lightweight, and always-on — perfect for background services. The tool
+server is the FIRST Pi service, not the only one.
+
+**Move to Pi (I/O-bound, lightweight, always-on):**
+- **Tool server** (this build) — shell, scripts, web fetching
+- **SearXNG instance** — self-hosted search for her curiosity research
+  (docker or bare metal); research.py points at the Pi instead of localhost
+- **Dream orchestration** — the file-gathering, prompt-building,
+  log-processing parts of the dream cycle (the LLM calls still hit
+  Ollama on the Ryebox over the network)
+- **Health watchdog** — monitor the Ryebox's Pandora processes remotely,
+  alert on failure (pings the Ryebox API, watches for silence)
+- **House pattern analysis** — house.py log crunching; batch, not real-time
+- **HUD server** — lightweight HTTP, can serve the UI from the Pi
+
+**Stays on Ryebox (needs GPU, audio hardware, or real-time):**
+- **Ollama + all models** — needs the 6900 XT, no contest
+- **Listener** — the microphone and speakers are physical; it lives
+  where the ears and mouth are
+- **Whisper STT, Piper TTS, wake word** — real-time audio; the Pi is
+  too slow and has no audio hardware worth using
+- **Vision/VLM** — needs the GPU
+
+### Pi service API pattern
+
+Every Pi service follows the same shape so Pandora (and the HUD) can
+talk to all of them uniformly:
+
+- `GET /api/health` → `{"ok": true, "service": "<name>", "uptime_s": N}`
+- `GET /api/tools` → list capabilities (for tool-like services)
+- `POST /api/run` → `{"tool": name, "args": {...}}` → `{"ok", "output"|"error"}`
+- `GET /api/log` → recent execution log
+
+The tool server implements all four. Future services implement at
+minimum `/api/health` and `/api/log`.
+
+### Pi services calling the Ryebox LLM
+
+Any Pi service that needs LLM work calls the Ryebox's Ollama directly —
+the models stay on the 6900 XT, always:
+
+```
+http://<ryebox-ip>:11434/api/chat
+```
+
+Same `/api/chat` payload Pandora's llm.py sends (model, messages,
+optional tools). The Pi never runs a model itself; it's hands and eyes,
+not the brain.
