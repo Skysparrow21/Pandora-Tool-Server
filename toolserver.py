@@ -1,1 +1,345 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJ0b29sc2VydmVyLnB5IOKAlCBQYW5kb3JhJ3MgUmFzcGJlcnJ5IFBpIHRvb2wgc2VydmVyLgoKQSB0aW55IG5vLWNvZGUgdG9vbCBob3N0OiBSeWUgZGVmaW5lcyB0b29scyAoc2hlbGwgY29tbWFuZHMgd2l0aCB7cGFyYW19CnN1YnN0aXR1dGlvbiwgb3IgaW5saW5lIFB5dGhvbiBzY3JpcHRzKSB0aHJvdWdoIHRoZSB3ZWIgVUksIGFuZCBQYW5kb3JhCmNhbGxzIHRoZW0gb3ZlciBIVFRQIGxpa2UgbmF0aXZlIGZ1bmN0aW9uIGNhbGxzLgoKU3RkbGliIG9ubHkg4oCUIG5vIHBpcCBkZXBzLiBSdW5zIG9uIGFueSBQaSB3aXRoIFB5dGhvbiAzOgogICAgcHl0aG9uMyB0b29sc2VydmVyLnB5ICAgICAgICAgICAgIyBwb3J0IDg3OTEKICAgIHB5dGhvbjMgdG9vbHNlcnZlci5weSAtLXBvcnQgOTAwMAoKRmlsZXMgKG5leHQgdG8gdGhpcyBzY3JpcHQpOgogICAgdG9vbHMuanNvbiAgICAgICB0b29sIHJlZ2lzdHJ5CiAgICB0b29sX2xvZy5qc29ubCAgIGV4ZWN1dGlvbiBsb2cgKGxhc3QgMTAwIGtlcHQpCiAgICBpbmRleC5odG1sICAgICAgIG1hbmFnZW1lbnQgVUkgKHNlcnZlZCBhdCAvKQoKQVBJOgogICAgR0VUICAvYXBpL3Rvb2xzICAgICAgICAgIGxpc3QgdG9vbHMgKG5hbWUsIGRlc2NyaXB0aW9uLCBwYXJhbXMpCiAgICBQT1NUIC9hcGkvdG9vbHMgICAgICAgICAgY3JlYXRlIGEgdG9vbCAgICAgICAgeyJuYW1lIiwiZGVzY3JpcHRpb24iLCJjb21tYW5kInwic2NyaXB0IiwicGFyYW1zIiwidGltZW91dCJ9CiAgICBQVVQgIC9hcGkvdG9vbHMvPG5hbWU+ICAgdXBkYXRlIGEgdG9vbAogICAgREVMRVRFIC9hcGkvdG9vbHMvPG5hbWU+IHJlbW92ZSBhIHRvb2wKICAgIFBPU1QgL2FwaS9ydW4gICAgICAgICAgICBydW4gYSB0b29sICAgICAgICAgICB7InRvb2wiOiJuYW1lIiwiYXJncyI6ey4uLn19CiAgICBHRVQgIC9hcGkvbG9nICAgICAgICAgICAgcmVjZW50IGV4ZWN1dGlvbiBsb2cKICAgIEdFVCAgL2FwaS9zdGF0dXMgICAgICAgICB1cHRpbWUsIHRvb2wgY291bnQsIGxhc3QgcnVuCiAgICBHRVQgIC9hcGkvaGVhbHRoICAgICAgICAgc3RhbmRhcmQgUGktc2VydmljZSBoZWFsdGggKG9rL3NlcnZpY2UvdXB0aW1lKQoKRXZlcnkgZXhlY3V0aW9uIGlzIGxvZ2dlZDogdGltZXN0YW1wLCB0b29sLCBhcmdzLCBvay9mYWlsLCBkdXJhdGlvbi4KIiIiCgppbXBvcnQgaHR0cC5zZXJ2ZXIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCByZQppbXBvcnQgc29ja2V0c2VydmVyCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCBzeXMKaW1wb3J0IHRocmVhZGluZwppbXBvcnQgdGltZQppbXBvcnQgdXJsbGliLnBhcnNlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKSEVSRSA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnQKVE9PTFNfUEFUSCA9IEhFUkUgLyAidG9vbHMuanNvbiIKTE9HX1BBVEggPSBIRVJFIC8gInRvb2xfbG9nLmpzb25sIgpJTkRFWF9QQVRIID0gSEVSRSAvICJpbmRleC5odG1sIgoKUE9SVCA9IDg3OTEKU1RBUlRFRCA9IHRpbWUudGltZSgpCk1BWF9MT0cgPSAxMDAKCl9sb2NrID0gdGhyZWFkaW5nLkxvY2soKQoKCiMgLS0tLS0tLS0tLS0tLS0tLSByZWdpc3RyeSAtLS0tLS0tLS0tLS0tLS0tCgpkZWYgbG9hZF90b29scygpIC0+IGRpY3Q6CiAgICB0cnk6CiAgICAgICAgcmV0dXJuIGpzb24ubG9hZHMoVE9PTFNfUEFUSC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiB7fQoKCmRlZiBzYXZlX3Rvb2xzKHRvb2xzOiBkaWN0KToKICAgIFRPT0xTX1BBVEgud3JpdGVfdGV4dChqc29uLmR1bXBzKHRvb2xzLCBpbmRlbnQ9MiksIGVuY29kaW5nPSJ1dGYtOCIpCgoKIyAtLS0tLS0tLS0tLS0tLS0tIGxvZyAtLS0tLS0tLS0tLS0tLS0tCgpkZWYgbG9nX3J1bihuYW1lLCBhcmdzLCBvaywgZHVyYXRpb24sIG91dHB1dD0iIik6CiAgICBlbnRyeSA9IHsKICAgICAgICAidHMiOiB0aW1lLnRpbWUoKSwKICAgICAgICAidG9vbCI6IG5hbWUsCiAgICAgICAgImFyZ3MiOiBhcmdzLAogICAgICAgICJvayI6IG9rLAogICAgICAgICJkdXJhdGlvbl9zIjogcm91bmQoZHVyYXRpb24sIDIpLAogICAgICAgICJvdXRwdXQiOiBzdHIob3V0cHV0KVs6NTAwXSwKICAgIH0KICAgIHdpdGggX2xvY2s6CiAgICAgICAgdHJ5OgogICAgICAgICAgICB3aXRoIG9wZW4oTE9HX1BBVEgsICJhIiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgICAgIGYud3JpdGUoanNvbi5kdW1wcyhlbnRyeSkgKyAiXG4iKQogICAgICAgICAgICAjIHRyaW0gdG8gbGFzdCBNQVhfTE9HCiAgICAgICAgICAgIGxpbmVzID0gTE9HX1BBVEgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnNwbGl0bGluZXMoKQogICAgICAgICAgICBpZiBsZW4obGluZXMpID4gTUFYX0xPRzoKICAgICAgICAgICAgICAgIExPR19QQVRILndyaXRlX3RleHQoIlxuIi5qb2luKGxpbmVzWy1NQVhfTE9HOl0pICsgIlxuIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5jb2Rpbmc9InV0Zi04IikKICAgICAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICAgICAgcGFzcwoKCmRlZiByZWFkX2xvZyhsaW1pdD01MCk6CiAgICB0cnk6CiAgICAgICAgbGluZXMgPSBMT0dfUEFUSC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04Iikuc3BsaXRsaW5lcygpCiAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICByZXR1cm4gW10KICAgIG91dCA9IFtdCiAgICBmb3IgbGluZSBpbiBsaW5lc1stbGltaXQ6XToKICAgICAgICB0cnk6CiAgICAgICAgICAgIG91dC5hcHBlbmQoanNvbi5sb2FkcyhsaW5lKSkKICAgICAgICBleGNlcHQganNvbi5KU09ORGVjb2RlRXJyb3I6CiAgICAgICAgICAgIHBhc3MKICAgIHJldHVybiBvdXQKCgojIC0tLS0tLS0tLS0tLS0tLS0gZXhlY3V0aW9uIC0tLS0tLS0tLS0tLS0tLS0KCl9QQVJBTV9SRSA9IHJlLmNvbXBpbGUociJceyhcdyspXH0iKQoKCmRlZiBfc3Vic3RpdHV0ZSh0ZW1wbGF0ZTogc3RyLCBhcmdzOiBkaWN0KSAtPiBzdHI6CiAgICAiIiJSZXBsYWNlIHtwYXJhbX0gcGxhY2Vob2xkZXJzLiBNaXNzaW5nIHBhcmFtcyBiZWNvbWUgZW1wdHkgc3RyaW5ncy4iIiIKICAgIGRlZiBfcmVwKG0pOgogICAgICAgIHJldHVybiBzdHIoYXJncy5nZXQobS5ncm91cCgxKSwgIiIpKQogICAgcmV0dXJuIF9QQVJBTV9SRS5zdWIoX3JlcCwgdGVtcGxhdGUpCgoKZGVmIHJ1bl90b29sKG5hbWU6IHN0ciwgYXJnczogZGljdCkgLT4gZGljdDoKICAgIHRvb2xzID0gbG9hZF90b29scygpCiAgICBzcGVjID0gdG9vbHMuZ2V0KG5hbWUpCiAgICBpZiBzcGVjIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIHsib2siOiBGYWxzZSwgImVycm9yIjogZiJ1bmtub3duIHRvb2w6IHtuYW1lfSJ9CiAgICBhcmdzID0gYXJncyBvciB7fQogICAgdGltZW91dCA9IGludChzcGVjLmdldCgidGltZW91dCIsIDE1KSkKICAgIHQwID0gdGltZS50aW1lKCkKICAgIHRyeToKICAgICAgICBpZiAic2NyaXB0IiBpbiBzcGVjOgogICAgICAgICAgICAjIElubGluZSBQeXRob246IEpTT04gYXJncyBvbiBzdGRpbiwgSlNPTiByZXN1bHQgb24gc3Rkb3V0LgogICAgICAgICAgICBwYXlsb2FkID0ganNvbi5kdW1wcyh7ImFyZ3MiOiBhcmdzLCAicGFyYW1zIjogYXJnc30pCiAgICAgICAgICAgIHAgPSBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgICAgIFtzeXMuZXhlY3V0YWJsZSwgIi1jIiwgc3BlY1sic2NyaXB0Il1dLAogICAgICAgICAgICAgICAgaW5wdXQ9cGF5bG9hZCwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGV4dD1UcnVlLAogICAgICAgICAgICAgICAgdGltZW91dD10aW1lb3V0LCBjd2Q9c3RyKEhFUkUpKQogICAgICAgICAgICBkdXIgPSB0aW1lLnRpbWUoKSAtIHQwCiAgICAgICAgICAgIGlmIHAucmV0dXJuY29kZSAhPSAwOgogICAgICAgICAgICAgICAgZXJyID0gKHAuc3RkZXJyIG9yICJzY3JpcHQgZmFpbGVkIilbLTEwMDA6XQogICAgICAgICAgICAgICAgbG9nX3J1bihuYW1lLCBhcmdzLCBGYWxzZSwgZHVyLCBlcnIpCiAgICAgICAgICAgICAgICByZXR1cm4geyJvayI6IEZhbHNlLCAiZXJyb3IiOiBlcnJ9CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJlc3VsdCA9IGpzb24ubG9hZHMocC5zdGRvdXQpIGlmIHAuc3Rkb3V0LnN0cmlwKCkgZWxzZSB7fQogICAgICAgICAgICBleGNlcHQganNvbi5KU09ORGVjb2RlRXJyb3I6CiAgICAgICAgICAgICAgICByZXN1bHQgPSB7InJhdyI6IHAuc3Rkb3V0Wy0yMDAwOl19CiAgICAgICAgICAgIGxvZ19ydW4obmFtZSwgYXJncywgVHJ1ZSwgZHVyLCBzdHIocmVzdWx0KVs6MjAwXSkKICAgICAgICAgICAgcmV0dXJuIHsib2siOiBUcnVlLCAib3V0cHV0IjogcmVzdWx0fQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGNtZCA9IF9zdWJzdGl0dXRlKHNwZWMuZ2V0KCJjb21tYW5kIiwgIiIpLCBhcmdzKQogICAgICAgICAgICBwID0gc3VicHJvY2Vzcy5ydW4oCiAgICAgICAgICAgICAgICBjbWQsIHNoZWxsPVRydWUsIGNhcHR1cmVfb3V0cHV0PVRydWUsIHRleHQ9VHJ1ZSwKICAgICAgICAgICAgICAgIHRpbWVvdXQ9dGltZW91dCwgY3dkPXN0cihIRVJFKSkKICAgICAgICAgICAgZHVyID0gdGltZS50aW1lKCkgLSB0MAogICAgICAgICAgICBvdXQgPSAocC5zdGRvdXQgb3IgIiIpWy00MDAwOl0KICAgICAgICAgICAgaWYgcC5yZXR1cm5jb2RlICE9IDA6CiAgICAgICAgICAgICAgICBlcnIgPSAoKHAuc3RkZXJyIG9yICIiKSArIG91dClbLTEwMDA6XSBvciBcCiAgICAgICAgICAgICAgICAgICAgZiJleGl0IHtwLnJldHVybmNvZGV9IgogICAgICAgICAgICAgICAgbG9nX3J1bihuYW1lLCBhcmdzLCBGYWxzZSwgZHVyLCBlcnIpCiAgICAgICAgICAgICAgICByZXR1cm4geyJvayI6IEZhbHNlLCAiZXJyb3IiOiBlcnJ9CiAgICAgICAgICAgIGxvZ19ydW4obmFtZSwgYXJncywgVHJ1ZSwgZHVyLCBvdXRbOjIwMF0pCiAgICAgICAgICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgIm91dHB1dCI6IG91dH0KICAgIGV4Y2VwdCBzdWJwcm9jZXNzLlRpbWVvdXRFeHBpcmVkOgogICAgICAgIGR1ciA9IHRpbWUudGltZSgpIC0gdDAKICAgICAgICBsb2dfcnVuKG5hbWUsIGFyZ3MsIEZhbHNlLCBkdXIsICJ0aW1lb3V0IikKICAgICAgICByZXR1cm4geyJvayI6IEZhbHNlLCAiZXJyb3IiOiBmInRpbWVkIG91dCBhZnRlciB7dGltZW91dH1zIn0KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBkdXIgPSB0aW1lLnRpbWUoKSAtIHQwCiAgICAgICAgbG9nX3J1bihuYW1lLCBhcmdzLCBGYWxzZSwgZHVyLCBzdHIoZSkpCiAgICAgICAgcmV0dXJuIHsib2siOiBGYWxzZSwgImVycm9yIjogc3RyKGUpfQoKCiMgLS0tLS0tLS0tLS0tLS0tLSBIVFRQIC0tLS0tLS0tLS0tLS0tLS0KCmNsYXNzIEhhbmRsZXIoaHR0cC5zZXJ2ZXIuQmFzZUhUVFBSZXF1ZXN0SGFuZGxlcik6CiAgICBzZXJ2ZXJfdmVyc2lvbiA9ICJQYW5kb3JhVG9vbFNlcnZlci8xLjAiCgogICAgZGVmIF9qc29uKHNlbGYsIG9iaiwgc3RhdHVzPTIwMCk6CiAgICAgICAgYm9keSA9IGpzb24uZHVtcHMob2JqKS5lbmNvZGUoInV0Zi04IikKICAgICAgICBzZWxmLnNlbmRfcmVzcG9uc2Uoc3RhdHVzKQogICAgICAgIHNlbGYuc2VuZF9oZWFkZXIoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKICAgICAgICBzZWxmLnNlbmRfaGVhZGVyKCJDb250ZW50LUxlbmd0aCIsIHN0cihsZW4oYm9keSkpKQogICAgICAgIHNlbGYuZW5kX2hlYWRlcnMoKQogICAgICAgIHNlbGYud2ZpbGUud3JpdGUoYm9keSkKCiAgICBkZWYgX3JlYWRfYm9keShzZWxmKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIG4gPSBpbnQoc2VsZi5oZWFkZXJzLmdldCgiQ29udGVudC1MZW5ndGgiLCAwKSkKICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgbiA9IDAKICAgICAgICBpZiBub3QgbjoKICAgICAgICAgICAgcmV0dXJuIHt9CiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhzZWxmLnJmaWxlLnJlYWQobikuZGVjb2RlKCJ1dGYtOCIpKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHJldHVybiB7fQoKICAgIGRlZiBsb2dfbWVzc2FnZShzZWxmLCBmbXQsICphcmdzKToKICAgICAgICBzeXMuc3RkZXJyLndyaXRlKCIlcyAlc1xuIiAlIChzZWxmLmFkZHJlc3Nfc3RyaW5nKCksIGZtdCAlIGFyZ3MpKQoKICAgIGRlZiBkb19HRVQoc2VsZik6CiAgICAgICAgcGFyc2VkID0gdXJsbGliLnBhcnNlLnVybHBhcnNlKHNlbGYucGF0aCkKICAgICAgICBwYXRoID0gcGFyc2VkLnBhdGgucnN0cmlwKCIvIikgb3IgIi8iCiAgICAgICAgaWYgcGF0aCA9PSAiLyI6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGJvZHkgPSBJTkRFWF9QQVRILnJlYWRfYnl0ZXMoKQogICAgICAgICAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICAgICAgICAgIGJvZHkgPSBiIjxoMT50b29sc2VydmVyPC9oMT48cD5pbmRleC5odG1sIG1pc3Npbmc8L3A+IgogICAgICAgICAgICBzZWxmLnNlbmRfcmVzcG9uc2UoMjAwKQogICAgICAgICAgICBzZWxmLnNlbmRfaGVhZGVyKCJDb250ZW50LVR5cGUiLCAidGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04IikKICAgICAgICAgICAgc2VsZi5zZW5kX2hlYWRlcigiQ29udGVudC1MZW5ndGgiLCBzdHIobGVuKGJvZHkpKSkKICAgICAgICAgICAgc2VsZi5lbmRfaGVhZGVycygpCiAgICAgICAgICAgIHNlbGYud2ZpbGUud3JpdGUoYm9keSkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgaWYgcGF0aCA9PSAiL2FwaS90b29scyI6CiAgICAgICAgICAgIHRvb2xzID0gbG9hZF90b29scygpCiAgICAgICAgICAgIHJldHVybiBzZWxmLl9qc29uKHsidG9vbHMiOiBbCiAgICAgICAgICAgICAgICB7Im5hbWUiOiBuLAogICAgICAgICAgICAgICAgICJkZXNjcmlwdGlvbiI6IHQuZ2V0KCJkZXNjcmlwdGlvbiIsICIiKSwKICAgICAgICAgICAgICAgICAicGFyYW1zIjogdC5nZXQoInBhcmFtcyIsIHt9KSwKICAgICAgICAgICAgICAgICAidGltZW91dCI6IHQuZ2V0KCJ0aW1lb3V0IiwgMTUpLAogICAgICAgICAgICAgICAgICJraW5kIjogInNjcmlwdCIgaWYgInNjcmlwdCIgaW4gdCBlbHNlICJjb21tYW5kIn0KICAgICAgICAgICAgICAgIGZvciBuLCB0IGluIHRvb2xzLml0ZW1zKCldfSkKICAgICAgICBpZiBwYXRoID09ICIvYXBpL2xvZyI6CiAgICAgICAgICAgIHFzID0gdXJsbGliLnBhcnNlLnBhcnNlX3FzKHBhcnNlZC5xdWVyeSkKICAgICAgICAgICAgbGltaXQgPSBpbnQocXMuZ2V0KCJsaW1pdCIsIFsiNTAiXSlbMF0pCiAgICAgICAgICAgIHJldHVybiBzZWxmLl9qc29uKHsibG9nIjogcmVhZF9sb2cobGltaXQpfSkKICAgICAgICBpZiBwYXRoID09ICIvYXBpL3N0YXR1cyI6CiAgICAgICAgICAgIHRvb2xzID0gbG9hZF90b29scygpCiAgICAgICAgICAgIGxvZyA9IHJlYWRfbG9nKDEpCiAgICAgICAgICAgIHJldHVybiBzZWxmLl9qc29uKHsKICAgICAgICAgICAgICAgICJ1cHRpbWVfcyI6IHJvdW5kKHRpbWUudGltZSgpIC0gU1RBUlRFRCwgMSksCiAgICAgICAgICAgICAgICAidG9vbF9jb3VudCI6IGxlbih0b29scyksCiAgICAgICAgICAgICAgICAibGFzdF9ydW4iOiBsb2dbLTFdIGlmIGxvZyBlbHNlIE5vbmUsCiAgICAgICAgICAgIH0pCiAgICAgICAgaWYgcGF0aCA9PSAiL2FwaS9oZWFsdGgiOgogICAgICAgICAgICAjIFN0YW5kYXJkIFBpLXNlcnZpY2UgaGVhbHRoIHNoYXBlLiBFdmVyeSBmdXR1cmUgUGkgc2VydmljZQogICAgICAgICAgICAjIChkcmVhbSBvcmNoZXN0cmF0b3IsIHdhdGNoZG9nLCBzZWFyeG5nIHByb3h5LCAuLi4pIGV4cG9zZXMKICAgICAgICAgICAgIyB0aGUgc2FtZSBlbmRwb2ludCBzbyBQYW5kb3JhIGNhbiBwb2xsIHRoZW0gdW5pZm9ybWx5LgogICAgICAgICAgICByZXR1cm4gc2VsZi5fanNvbih7Im9rIjogVHJ1ZSwgInNlcnZpY2UiOiAidG9vbHNlcnZlciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidXB0aW1lX3MiOiByb3VuZCh0aW1lLnRpbWUoKSAtIFNUQVJURUQsIDEpfSkKICAgICAgICBtID0gcmUubWF0Y2gociJeL2FwaS90b29scy8oW2EtekEtWjAtOV9dKykkIiwgcGF0aCkKICAgICAgICBpZiBtOgogICAgICAgICAgICB0b29scyA9IGxvYWRfdG9vbHMoKQogICAgICAgICAgICBzcGVjID0gdG9vbHMuZ2V0KG0uZ3JvdXAoMSkpCiAgICAgICAgICAgIGlmIHNwZWMgaXMgTm9uZToKICAgICAgICAgICAgICAgIHJldHVybiBzZWxmLl9qc29uKHsiZXJyb3IiOiAibm90IGZvdW5kIn0sIDQwNCkKICAgICAgICAgICAgZnVsbCA9IGRpY3Qoc3BlYykKICAgICAgICAgICAgZnVsbFsibmFtZSJdID0gbS5ncm91cCgxKQogICAgICAgICAgICBmdWxsWyJraW5kIl0gPSAic2NyaXB0IiBpZiAic2NyaXB0IiBpbiBzcGVjIGVsc2UgImNvbW1hbmQiCiAgICAgICAgICAgIHJldHVybiBzZWxmLl9qc29uKHsidG9vbCI6IGZ1bGx9KQogICAgICAgIHNlbGYuX2pzb24oeyJlcnJvciI6ICJub3QgZm91bmQifSwgNDA0KQoKICAgIGRlZiBkb19QT1NUKHNlbGYpOgogICAgICAgIHBhcnNlZCA9IHVybGxpYi5wYXJzZS51cmxwYXJzZShzZWxmLnBhdGgpCiAgICAgICAgcGF0aCA9IHBhcnNlZC5wYXRoLnJzdHJpcCgiLyIpIG9yICIvIgogICAgICAgIGJvZHkgPSBzZWxmLl9yZWFkX2JvZHkoKQogICAgICAgIGlmIHBhdGggPT0gIi9hcGkvcnVuIjoKICAgICAgICAgICAgbmFtZSA9IGJvZHkuZ2V0KCJ0b29sIiwgIiIpCiAgICAgICAgICAgIGFyZ3MgPSBib2R5LmdldCgiYXJncyIsIHt9KQogICAgICAgICAgICBpZiBub3QgbmFtZToKICAgICAgICAgICAgICAgIHJldHVybiBzZWxmLl9qc29uKHsib2siOiBGYWxzZSwgImVycm9yIjogIm1pc3NpbmcgdG9vbCBuYW1lIn0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0MDApCiAgICAgICAgICAgIHJldHVybiBzZWxmLl9qc29uKHJ1bl90b29sKG5hbWUsIGFyZ3MpKQogICAgICAgIGlmIHBhdGggPT0gIi9hcGkvdG9vbHMiOgogICAgICAgICAgICBuYW1lID0gKGJvZHkuZ2V0KCJuYW1lIikgb3IgIiIpLnN0cmlwKCkKICAgICAgICAgICAgaWYgbm90IG5hbWUgb3Igbm90IHJlLm1hdGNoKHIiXlthLXpBLVowLTlfXSskIiwgbmFtZSk6CiAgICAgICAgICAgICAgICByZXR1cm4gc2VsZi5fanNvbigKICAgICAgICAgICAgICAgICAgICB7Im9rIjogRmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICJlcnJvciI6ICJuYW1lIHJlcXVpcmVkOiBsZXR0ZXJzLCBudW1iZXJzLCB1bmRlcnNjb3JlcyJ9LAogICAgICAgICAgICAgICAgICAgIDQwMCkKICAgICAgICAgICAgaWYgImNvbW1hbmQiIG5vdCBpbiBib2R5IGFuZCAic2NyaXB0IiBub3QgaW4gYm9keToKICAgICAgICAgICAgICAgIHJldHVybiBzZWxmLl9qc29uKAogICAgICAgICAgICAgICAgICAgIHsib2siOiBGYWxzZSwgImVycm9yIjogIm5lZWQgJ2NvbW1hbmQnIG9yICdzY3JpcHQnIn0sCiAgICAgICAgICAgICAgICAgICAgNDAwKQogICAgICAgICAgICB0b29scyA9IGxvYWRfdG9vbHMoKQogICAgICAgICAgICB0b29sc1tuYW1lXSA9IHsKICAgICAgICAgICAgICAgICJkZXNjcmlwdGlvbiI6IGJvZHkuZ2V0KCJkZXNjcmlwdGlvbiIsICIiKSwKICAgICAgICAgICAgICAgICJwYXJhbXMiOiBib2R5LmdldCgicGFyYW1zIiwge30pIG9yIHt9LAogICAgICAgICAgICAgICAgInRpbWVvdXQiOiBpbnQoYm9keS5nZXQoInRpbWVvdXQiLCAxNSkpLAogICAgICAgICAgICAgICAgKiooeyJjb21tYW5kIjogYm9keVsiY29tbWFuZCJdfSBpZiAiY29tbWFuZCIgaW4gYm9keQogICAgICAgICAgICAgICAgICAgZWxzZSB7InNjcmlwdCI6IGJvZHlbInNjcmlwdCJdfSksCiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2F2ZV90b29scyh0b29scykKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX2pzb24oeyJvayI6IFRydWUsICJuYW1lIjogbmFtZX0pCiAgICAgICAgc2VsZi5fanNvbih7ImVycm9yIjogIm5vdCBmb3VuZCJ9LCA0MDQpCgogICAgZGVmIGRvX1BVVChzZWxmKToKICAgICAgICBwYXJzZWQgPSB1cmxsaWIucGFyc2UudXJscGFyc2Uoc2VsZi5wYXRoKQogICAgICAgIG0gPSByZS5tYXRjaChyIl4vYXBpL3Rvb2xzLyhbYS16QS1aMC05X10rKSQiLAogICAgICAgICAgICAgICAgICAgICBwYXJzZWQucGF0aC5yc3RyaXAoIi8iKSkKICAgICAgICBpZiBub3QgbToKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX2pzb24oeyJlcnJvciI6ICJub3QgZm91bmQifSwgNDA0KQogICAgICAgIG5hbWUgPSBtLmdyb3VwKDEpCiAgICAgICAgYm9keSA9IHNlbGYuX3JlYWRfYm9keSgpCiAgICAgICAgdG9vbHMgPSBsb2FkX3Rvb2xzKCkKICAgICAgICBpZiBuYW1lIG5vdCBpbiB0b29sczoKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX2pzb24oeyJvayI6IEZhbHNlLCAiZXJyb3IiOiBmInVua25vd24gdG9vbDoge25hbWV9In0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQwNCkKICAgICAgICBjdXIgPSB0b29sc1tuYW1lXQogICAgICAgIGZvciBrIGluICgiZGVzY3JpcHRpb24iLCAicGFyYW1zIiwgInRpbWVvdXQiLCAiY29tbWFuZCIsICJzY3JpcHQiKToKICAgICAgICAgICAgaWYgayBpbiBib2R5IGFuZCBib2R5W2tdIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgY3VyW2tdID0gYm9keVtrXQogICAgICAgICMgc3dpdGNoaW5nIGtpbmRzOiBkcm9wIHRoZSBvdGhlciBvbmUgaWYgYm90aCBwcmVzZW50CiAgICAgICAgaWYgImNvbW1hbmQiIGluIGJvZHkgYW5kICJzY3JpcHQiIGluIGN1cjoKICAgICAgICAgICAgZGVsIGN1clsic2NyaXB0Il0KICAgICAgICBpZiAic2NyaXB0IiBpbiBib2R5IGFuZCAiY29tbWFuZCIgaW4gY3VyOgogICAgICAgICAgICBkZWwgY3VyWyJjb21tYW5kIl0KICAgICAgICB0b29sc1tuYW1lXSA9IGN1cgogICAgICAgIHNhdmVfdG9vbHModG9vbHMpCiAgICAgICAgcmV0dXJuIHNlbGYuX2pzb24oeyJvayI6IFRydWUsICJuYW1lIjogbmFtZX0pCgogICAgZGVmIGRvX0RFTEVURShzZWxmKToKICAgICAgICBwYXJzZWQgPSB1cmxsaWIucGFyc2UudXJscGFyc2Uoc2VsZi5wYXRoKQogICAgICAgIG0gPSByZS5tYXRjaChyIl4vYXBpL3Rvb2xzLyhbYS16QS1aMC05X10rKSQiLAogICAgICAgICAgICAgICAgICAgICBwYXJzZWQucGF0aC5yc3RyaXAoIi8iKSkKICAgICAgICBpZiBub3QgbToKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX2pzb24oeyJlcnJvciI6ICJub3QgZm91bmQifSwgNDA0KQogICAgICAgIG5hbWUgPSBtLmdyb3VwKDEpCiAgICAgICAgdG9vbHMgPSBsb2FkX3Rvb2xzKCkKICAgICAgICBpZiBuYW1lIG5vdCBpbiB0b29sczoKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX2pzb24oeyJvayI6IEZhbHNlLCAiZXJyb3IiOiBmInVua25vd24gdG9vbDoge25hbWV9In0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQwNCkKICAgICAgICBkZWwgdG9vbHNbbmFtZV0KICAgICAgICBzYXZlX3Rvb2xzKHRvb2xzKQogICAgICAgIHJldHVybiBzZWxmLl9qc29uKHsib2siOiBUcnVlLCAibmFtZSI6IG5hbWV9KQoKCmNsYXNzIFRocmVhZGVkU2VydmVyKHNvY2tldHNlcnZlci5UaHJlYWRpbmdNaXhJbiwKICAgICAgICAgICAgICAgICAgICAgaHR0cC5zZXJ2ZXIuSFRUUFNlcnZlcik6CiAgICBkYWVtb25fdGhyZWFkcyA9IFRydWUKCgpkZWYgbWFpbigpOgogICAgcG9ydCA9IFBPUlQKICAgIGZvciBpLCBhIGluIGVudW1lcmF0ZShzeXMuYXJndlsxOl0pOgogICAgICAgIGlmIGEgPT0gIi0tcG9ydCIgYW5kIGkgKyAxIDwgbGVuKHN5cy5hcmd2WzE6XSk6CiAgICAgICAgICAgIHBvcnQgPSBpbnQoc3lzLmFyZ3ZbMjpdW2ldKQogICAgICAgIGVsaWYgYS5zdGFydHN3aXRoKCItLXBvcnQ9Iik6CiAgICAgICAgICAgIHBvcnQgPSBpbnQoYS5zcGxpdCgiPSIsIDEpWzFdKQogICAgc3J2ID0gVGhyZWFkZWRTZXJ2ZXIoKCIwLjAuMC4wIiwgcG9ydCksIEhhbmRsZXIpCiAgICBwcmludChmIlBhbmRvcmEgdG9vbCBzZXJ2ZXIgb24gOntwb3J0fSAgKHJlZ2lzdHJ5OiB7VE9PTFNfUEFUSH0pIikKICAgIHRyeToKICAgICAgICBzcnYuc2VydmVfZm9yZXZlcigpCiAgICBleGNlcHQgS2V5Ym9hcmRJbnRlcnJ1cHQ6CiAgICAgICAgcGFzcwoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+"""toolserver.py — Pandora's Raspberry Pi tool server.
+
+A tiny no-code tool host: Rye defines tools (shell commands with {param}
+substitution, or inline Python scripts) through the web UI, and Pandora
+calls them over HTTP like native function calls.
+
+Stdlib only — no pip deps. Runs on any Pi with Python 3:
+    python3 toolserver.py            # port 8791
+    python3 toolserver.py --port 9000
+
+Files (next to this script):
+    tools.json       tool registry
+    tool_log.jsonl   execution log (last 100 kept)
+    index.html       management UI (served at /)
+
+API:
+    GET  /api/tools          list tools (name, description, params)
+    POST /api/tools          create a tool        {"name","description","command"|"script","params","timeout"}
+    PUT  /api/tools/<name>   update a tool
+    DELETE /api/tools/<name> remove a tool
+    POST /api/run            run a tool           {"tool":"name","args":{...}}
+    GET  /api/log            recent execution log
+    GET  /api/status         uptime, tool count, last run
+    GET  /api/health         standard Pi-service health (ok/service/uptime)
+
+Every execution is logged: timestamp, tool, args, ok/fail, duration.
+"""
+
+import http.server
+import json
+import os
+import re
+import socketserver
+import subprocess
+import sys
+import threading
+import time
+import urllib.parse
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+TOOLS_PATH = HERE / "tools.json"
+LOG_PATH = HERE / "tool_log.jsonl"
+INDEX_PATH = HERE / "index.html"
+
+PORT = 8791
+STARTED = time.time()
+MAX_LOG = 100
+
+_lock = threading.Lock()
+
+
+# ---------------- registry ----------------
+
+def load_tools() -> dict:
+    try:
+        return json.loads(TOOLS_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_tools(tools: dict):
+    TOOLS_PATH.write_text(json.dumps(tools, indent=2), encoding="utf-8")
+
+
+# ---------------- log ----------------
+
+def log_run(name, args, ok, duration, output=""):
+    entry = {
+        "ts": time.time(),
+        "tool": name,
+        "args": args,
+        "ok": ok,
+        "duration_s": round(duration, 2),
+        "output": str(output)[:500],
+    }
+    with _lock:
+        try:
+            with open(LOG_PATH, "a", encoding="utf-8") as f:
+                f.write(json.dumps(entry) + "\n")
+            # trim to last MAX_LOG
+            lines = LOG_PATH.read_text(encoding="utf-8").splitlines()
+            if len(lines) > MAX_LOG:
+                LOG_PATH.write_text("\n".join(lines[-MAX_LOG:]) + "\n",
+                                    encoding="utf-8")
+        except OSError:
+            pass
+
+
+def read_log(limit=50):
+    try:
+        lines = LOG_PATH.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return []
+    out = []
+    for line in lines[-limit:]:
+        try:
+            out.append(json.loads(line))
+        except json.JSONDecodeError:
+            pass
+    return out
+
+
+# ---------------- execution ----------------
+
+_PARAM_RE = re.compile(r"\{(\w+)\}")
+
+
+def _substitute(template: str, args: dict) -> str:
+    """Replace {param} placeholders. Missing params become empty strings."""
+    def _rep(m):
+        return str(args.get(m.group(1), ""))
+    return _PARAM_RE.sub(_rep, template)
+
+
+def run_tool(name: str, args: dict) -> dict:
+    tools = load_tools()
+    spec = tools.get(name)
+    if spec is None:
+        return {"ok": False, "error": f"unknown tool: {name}"}
+    args = args or {}
+    timeout = int(spec.get("timeout", 15))
+    t0 = time.time()
+    try:
+        if "script" in spec:
+            # Inline Python: JSON args on stdin, JSON result on stdout.
+            payload = json.dumps({"args": args, "params": args})
+            p = subprocess.run(
+                [sys.executable, "-c", spec["script"]],
+                input=payload, capture_output=True, text=True,
+                timeout=timeout, cwd=str(HERE))
+            dur = time.time() - t0
+            if p.returncode != 0:
+                err = (p.stderr or "script failed")[-1000:]
+                log_run(name, args, False, dur, err)
+                return {"ok": False, "error": err}
+            try:
+                result = json.loads(p.stdout) if p.stdout.strip() else {}
+            except json.JSONDecodeError:
+                result = {"raw": p.stdout[-2000:]}
+            log_run(name, args, True, dur, str(result)[:200])
+            return {"ok": True, "output": result}
+        else:
+            cmd = _substitute(spec.get("command", ""), args)
+            p = subprocess.run(
+                cmd, shell=True, capture_output=True, text=True,
+                timeout=timeout, cwd=str(HERE))
+            dur = time.time() - t0
+            out = (p.stdout or "")[-4000:]
+            if p.returncode != 0:
+                err = ((p.stderr or "") + out)[-1000:] or \
+                    f"exit {p.returncode}"
+                log_run(name, args, False, dur, err)
+                return {"ok": False, "error": err}
+            log_run(name, args, True, dur, out[:200])
+            return {"ok": True, "output": out}
+    except subprocess.TimeoutExpired:
+        dur = time.time() - t0
+        log_run(name, args, False, dur, "timeout")
+        return {"ok": False, "error": f"timed out after {timeout}s"}
+    except Exception as e:
+        dur = time.time() - t0
+        log_run(name, args, False, dur, str(e))
+        return {"ok": False, "error": str(e)}
+
+
+# ---------------- HTTP ----------------
+
+class Handler(http.server.BaseHTTPRequestHandler):
+    server_version = "PandoraToolServer/1.0"
+
+    def _json(self, obj, status=200):
+        body = json.dumps(obj).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def _read_body(self):
+        try:
+            n = int(self.headers.get("Content-Length", 0))
+        except ValueError:
+            n = 0
+        if not n:
+            return {}
+        try:
+            return json.loads(self.rfile.read(n).decode("utf-8"))
+        except Exception:
+            return {}
+
+    def log_message(self, fmt, *args):
+        sys.stderr.write("%s %s\n" % (self.address_string(), fmt % args))
+
+    def do_GET(self):
+        parsed = urllib.parse.urlparse(self.path)
+        path = parsed.path.rstrip("/") or "/"
+        if path == "/":
+            try:
+                body = INDEX_PATH.read_bytes()
+            except OSError:
+                body = b"<h1>toolserver</h1><p>index.html missing</p>"
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+        if path == "/api/tools":
+            tools = load_tools()
+            return self._json({"tools": [
+                {"name": n,
+                 "description": t.get("description", ""),
+                 "params": t.get("params", {}),
+                 "timeout": t.get("timeout", 15),
+                 "kind": "script" if "script" in t else "command"}
+                for n, t in tools.items()]})
+        if path == "/api/log":
+            qs = urllib.parse.parse_qs(parsed.query)
+            limit = int(qs.get("limit", ["50"])[0])
+            return self._json({"log": read_log(limit)})
+        if path == "/api/status":
+            tools = load_tools()
+            log = read_log(1)
+            return self._json({
+                "uptime_s": round(time.time() - STARTED, 1),
+                "tool_count": len(tools),
+                "last_run": log[-1] if log else None,
+            })
+        if path == "/api/health":
+            # Standard Pi-service health shape. Every future Pi service
+            # (dream orchestrator, watchdog, searxng proxy, ...) exposes
+            # the same endpoint so Pandora can poll them uniformly.
+            return self._json({"ok": True, "service": "toolserver",
+                               "uptime_s": round(time.time() - STARTED, 1)})
+        m = re.match(r"^/api/tools/([a-zA-Z0-9_]+)$", path)
+        if m:
+            tools = load_tools()
+            spec = tools.get(m.group(1))
+            if spec is None:
+                return self._json({"error": "not found"}, 404)
+            full = dict(spec)
+            full["name"] = m.group(1)
+            full["kind"] = "script" if "script" in spec else "command"
+            return self._json({"tool": full})
+        self._json({"error": "not found"}, 404)
+
+    def do_POST(self):
+        parsed = urllib.parse.urlparse(self.path)
+        path = parsed.path.rstrip("/") or "/"
+        body = self._read_body()
+        if path == "/api/run":
+            name = body.get("tool", "")
+            args = body.get("args", {})
+            if not name:
+                return self._json({"ok": False, "error": "missing tool name"},
+                                  400)
+            return self._json(run_tool(name, args))
+        if path == "/api/tools":
+            name = (body.get("name") or "").strip()
+            if not name or not re.match(r"^[a-zA-Z0-9_]+$", name):
+                return self._json(
+                    {"ok": False,
+                     "error": "name required: letters, numbers, underscores"},
+                    400)
+            if "command" not in body and "script" not in body:
+                return self._json(
+                    {"ok": False, "error": "need 'command' or 'script'"},
+                    400)
+            tools = load_tools()
+            tools[name] = {
+                "description": body.get("description", ""),
+                "params": body.get("params", {}) or {},
+                "timeout": int(body.get("timeout", 15)),
+                **({"command": body["command"]} if "command" in body
+                   else {"script": body["script"]}),
+            }
+            save_tools(tools)
+            return self._json({"ok": True, "name": name})
+        self._json({"error": "not found"}, 404)
+
+    def do_PUT(self):
+        parsed = urllib.parse.urlparse(self.path)
+        m = re.match(r"^/api/tools/([a-zA-Z0-9_]+)$",
+                     parsed.path.rstrip("/"))
+        if not m:
+            return self._json({"error": "not found"}, 404)
+        name = m.group(1)
+        body = self._read_body()
+        tools = load_tools()
+        if name not in tools:
+            return self._json({"ok": False, "error": f"unknown tool: {name}"},
+                              404)
+        cur = tools[name]
+        for k in ("description", "params", "timeout", "command", "script"):
+            if k in body and body[k] is not None:
+                cur[k] = body[k]
+        # switching kinds: drop the other one if both present
+        if "command" in body and "script" in cur:
+            del cur["script"]
+        if "script" in body and "command" in cur:
+            del cur["command"]
+        tools[name] = cur
+        save_tools(tools)
+        return self._json({"ok": True, "name": name})
+
+    def do_DELETE(self):
+        parsed = urllib.parse.urlparse(self.path)
+        m = re.match(r"^/api/tools/([a-zA-Z0-9_]+)$",
+                     parsed.path.rstrip("/"))
+        if not m:
+            return self._json({"error": "not found"}, 404)
+        name = m.group(1)
+        tools = load_tools()
+        if name not in tools:
+            return self._json({"ok": False, "error": f"unknown tool: {name}"},
+                              404)
+        del tools[name]
+        save_tools(tools)
+        return self._json({"ok": True, "name": name})
+
+
+class ThreadedServer(socketserver.ThreadingMixIn,
+                     http.server.HTTPServer):
+    daemon_threads = True
+
+
+def main():
+    port = PORT
+    for i, a in enumerate(sys.argv[1:]):
+        if a == "--port" and i + 1 < len(sys.argv[1:]):
+            port = int(sys.argv[2:][i])
+        elif a.startswith("--port="):
+            port = int(a.split("=", 1)[1])
+    srv = ThreadedServer(("0.0.0.0", port), Handler)
+    print(f"Pandora tool server on :{port}  (registry: {TOOLS_PATH})")
+    try:
+        srv.serve_forever()
+    except KeyboardInterrupt:
+        pass
+
+
+if __name__ == "__main__":
+    main()
